@@ -1,0 +1,12 @@
+D:\Fophexs\Fophex\Fophex\Fophex.Application.Shared\bin\Debug\net8.0\Fophex.Application.Shared.deps.json
+D:\Fophexs\Fophex\Fophex\Fophex.Application.Shared\bin\Debug\net8.0\Fophex.Application.Shared.dll
+D:\Fophexs\Fophex\Fophex\Fophex.Application.Shared\bin\Debug\net8.0\Fophex.Application.Shared.pdb
+D:\Fophexs\Fophex\Fophex\Fophex.Application.Shared\obj\Debug\net8.0\Fophex.Application.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Fophexs\Fophex\Fophex\Fophex.Application.Shared\obj\Debug\net8.0\Fophex.Application.Shared.AssemblyInfoInputs.cache
+D:\Fophexs\Fophex\Fophex\Fophex.Application.Shared\obj\Debug\net8.0\Fophex.Application.Shared.AssemblyInfo.cs
+D:\Fophexs\Fophex\Fophex\Fophex.Application.Shared\obj\Debug\net8.0\Fophex.Application.Shared.csproj.CoreCompileInputs.cache
+D:\Fophexs\Fophex\Fophex\Fophex.Application.Shared\obj\Debug\net8.0\Fophex.Application.Shared.sourcelink.json
+D:\Fophexs\Fophex\Fophex\Fophex.Application.Shared\obj\Debug\net8.0\Fophex.Application.Shared.dll
+D:\Fophexs\Fophex\Fophex\Fophex.Application.Shared\obj\Debug\net8.0\refint\Fophex.Application.Shared.dll
+D:\Fophexs\Fophex\Fophex\Fophex.Application.Shared\obj\Debug\net8.0\Fophex.Application.Shared.pdb
+D:\Fophexs\Fophex\Fophex\Fophex.Application.Shared\obj\Debug\net8.0\ref\Fophex.Application.Shared.dll

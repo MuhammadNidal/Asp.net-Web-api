@@ -1,0 +1,4464 @@
+[
+  {
+    "ContainingType": "Fophex.API.Controllers.AccessManagement.AuthsController",
+    "Method": "Login",
+    "RelativePath": "api/access-manag/Auths/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginUserAuthDto",
+        "Type": "Fophex.Application.Shared.AccessManagement.Detail.Auths.Dto.LoginUserAuthDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.AccessManagement.BusinessActivitiesController",
+    "Method": "Add",
+    "RelativePath": "api/access-manag/BusinessActivities",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createBusinessActivityDto",
+        "Type": "Fophex.Application.Shared.AccessManagement.Master.BusinessActivities.Dto.CreateBusinessActivityDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.AccessManagement.BusinessActivitiesController",
+    "Method": "GetAll",
+    "RelativePath": "api/access-manag/BusinessActivities",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.AccessManagement.BusinessActivitiesController",
+    "Method": "GetById",
+    "RelativePath": "api/access-manag/BusinessActivities/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.AccessManagement.BusinessActivitiesController",
+    "Method": "Update",
+    "RelativePath": "api/access-manag/BusinessActivities/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateBusinessActivityDto",
+        "Type": "Fophex.Application.Shared.AccessManagement.Master.BusinessActivities.Dto.UpdateBusinessActivityDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.AccessManagement.BusinessActivitiesController",
+    "Method": "Delete",
+    "RelativePath": "api/access-manag/BusinessActivities/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.AccessManagement.FormsController",
+    "Method": "Add",
+    "RelativePath": "api/access-manag/Forms",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createFormDto",
+        "Type": "Fophex.Application.Shared.AccessManagement.Master.Forms.Dto.CreateFormDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.AccessManagement.FormsController",
+    "Method": "GetAll",
+    "RelativePath": "api/access-manag/Forms",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.AccessManagement.FormsController",
+    "Method": "GetById",
+    "RelativePath": "api/access-manag/Forms/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.AccessManagement.FormsController",
+    "Method": "Update",
+    "RelativePath": "api/access-manag/Forms/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateFormDto",
+        "Type": "Fophex.Application.Shared.AccessManagement.Master.Forms.Dto.UpdateFormDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.AccessManagement.FormsController",
+    "Method": "Delete",
+    "RelativePath": "api/access-manag/Forms/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.AccessManagement.ModulesController",
+    "Method": "Add",
+    "RelativePath": "api/access-manag/Modules",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createModuleDto",
+        "Type": "Fophex.Application.Shared.AccessManagement.Master.Modules.Dto.CreateModuleDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.AccessManagement.ModulesController",
+    "Method": "GetAll",
+    "RelativePath": "api/access-manag/Modules",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.AccessManagement.ModulesController",
+    "Method": "GetById",
+    "RelativePath": "api/access-manag/Modules/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.AccessManagement.ModulesController",
+    "Method": "Update",
+    "RelativePath": "api/access-manag/Modules/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateModuleDto",
+        "Type": "Fophex.Application.Shared.AccessManagement.Master.Modules.Dto.UpdateModuleDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.AccessManagement.ModulesController",
+    "Method": "Delete",
+    "RelativePath": "api/access-manag/Modules/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.AccessManagement.RoleRightsController",
+    "Method": "Add",
+    "RelativePath": "api/access-manag/RoleRights",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createRoleRightDto",
+        "Type": "Fophex.Application.Shared.AccessManagement.Detail.RoleRights.Dto.CreateRoleRightDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.AccessManagement.RoleRightsController",
+    "Method": "GetAll",
+    "RelativePath": "api/access-manag/RoleRights",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.AccessManagement.RoleRightsController",
+    "Method": "GetById",
+    "RelativePath": "api/access-manag/RoleRights/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.AccessManagement.RoleRightsController",
+    "Method": "Update",
+    "RelativePath": "api/access-manag/RoleRights/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateRoleRightDto",
+        "Type": "Fophex.Application.Shared.AccessManagement.Detail.RoleRights.Dto.UpdateRoleRightDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.AccessManagement.RoleRightsController",
+    "Method": "Delete",
+    "RelativePath": "api/access-manag/RoleRights/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.AccessManagement.RolesController",
+    "Method": "Add",
+    "RelativePath": "api/access-manag/Roles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createRoleDto",
+        "Type": "Fophex.Application.Shared.Role.Dto.CreateRoleDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.AccessManagement.RolesController",
+    "Method": "GetAll",
+    "RelativePath": "api/access-manag/Roles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.AccessManagement.RolesController",
+    "Method": "GetById",
+    "RelativePath": "api/access-manag/Roles/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.AccessManagement.RolesController",
+    "Method": "Update",
+    "RelativePath": "api/access-manag/Roles/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateRoleDto",
+        "Type": "Fophex.Application.Shared.Role.Dto.UpdateRoleDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.AccessManagement.RolesController",
+    "Method": "Delete",
+    "RelativePath": "api/access-manag/Roles/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.AccessManagement.SubModulesController",
+    "Method": "Add",
+    "RelativePath": "api/access-manag/SubModules",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createsubModuleDto",
+        "Type": "Fophex.Application.Shared.AccessManagement.Master.SubModules.Dto.CreateSubModuleDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.AccessManagement.SubModulesController",
+    "Method": "GetAll",
+    "RelativePath": "api/access-manag/SubModules",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.AccessManagement.SubModulesController",
+    "Method": "GetById",
+    "RelativePath": "api/access-manag/SubModules/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.AccessManagement.SubModulesController",
+    "Method": "Update",
+    "RelativePath": "api/access-manag/SubModules/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateSubModuleDto",
+        "Type": "Fophex.Application.Shared.AccessManagement.Master.SubModules.Dto.UpdateSubModuleDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.AccessManagement.SubModulesController",
+    "Method": "Delete",
+    "RelativePath": "api/access-manag/SubModules/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.AccessManagement.UsersController",
+    "Method": "Add",
+    "RelativePath": "api/access-manag/Users",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createUserDto",
+        "Type": "Fophex.Application.Shared.AccessManagement.Detail.UserRoles.Dto.CreateUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.AccessManagement.UsersController",
+    "Method": "GetAll",
+    "RelativePath": "api/access-manag/Users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.AccessManagement.UsersController",
+    "Method": "GetById",
+    "RelativePath": "api/access-manag/Users/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.AccessManagement.UsersController",
+    "Method": "Update",
+    "RelativePath": "api/access-manag/Users/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateUserDto",
+        "Type": "Fophex.Application.Shared.AccessManagement.Detail.UserRoles.Dto.UpdateUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.AccessManagement.UsersController",
+    "Method": "Delete",
+    "RelativePath": "api/access-manag/Users/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.AccountHeadsController",
+    "Method": "Add",
+    "RelativePath": "api/accountheads",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createAccountHeadDto",
+        "Type": "Fophex.Application.Shared.Accounts.Detail.AccountHeads.Dto.CreateAccountHeadDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.AccountHeadsController",
+    "Method": "GetAll",
+    "RelativePath": "api/accountheads",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.AccountHeadsController",
+    "Method": "GetById",
+    "RelativePath": "api/accountheads/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.AccountHeadsController",
+    "Method": "Update",
+    "RelativePath": "api/accountheads/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateAccountHeadDto",
+        "Type": "Fophex.Application.Shared.Accounts.Detail.AccountHeads.Dto.UpdateAccountHeadDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.AccountHeadsController",
+    "Method": "Delete",
+    "RelativePath": "api/accountheads/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.BanksController",
+    "Method": "Add",
+    "RelativePath": "api/banks",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createBankDto",
+        "Type": "Fophex.Application.Shared.Accounts.Detail.Banks.Dto.CreateBankDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.BanksController",
+    "Method": "GetAll",
+    "RelativePath": "api/banks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.BanksController",
+    "Method": "GetById",
+    "RelativePath": "api/banks/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.BanksController",
+    "Method": "Update",
+    "RelativePath": "api/banks/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateBankDto",
+        "Type": "Fophex.Application.Shared.Accounts.Detail.Banks.Dto.UpdateBankDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.BanksController",
+    "Method": "Delete",
+    "RelativePath": "api/banks/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.CategoriesController",
+    "Method": "Add",
+    "RelativePath": "api/categories",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createCategoryDto",
+        "Type": "Fophex.Application.Shared.Accounts.Master.Categories.Dto.CreateCategoryDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.CategoriesController",
+    "Method": "GetAll",
+    "RelativePath": "api/categories",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.CategoriesController",
+    "Method": "GetById",
+    "RelativePath": "api/categories/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.CategoriesController",
+    "Method": "Update",
+    "RelativePath": "api/categories/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateCategoryDto",
+        "Type": "Fophex.Application.Shared.Accounts.Master.Categories.Dto.UpdateCategoryDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.CategoriesController",
+    "Method": "Delete",
+    "RelativePath": "api/categories/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.ClassificationsController",
+    "Method": "Add",
+    "RelativePath": "api/classifications",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createClassificationDto",
+        "Type": "Fophex.Application.Shared.Accounts.Master.Classifications.Dto.CreateClassificationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.ClassificationsController",
+    "Method": "GetAll",
+    "RelativePath": "api/classifications",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.ClassificationsController",
+    "Method": "GetById",
+    "RelativePath": "api/classifications/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.ClassificationsController",
+    "Method": "Update",
+    "RelativePath": "api/classifications/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateClassificationDto",
+        "Type": "Fophex.Application.Shared.Accounts.Master.Classifications.Dto.UpdateClassificationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.ClassificationsController",
+    "Method": "Delete",
+    "RelativePath": "api/classifications/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.FinancialYearsController",
+    "Method": "Add",
+    "RelativePath": "api/financialyears",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createFinancialYearDto",
+        "Type": "Fophex.Application.Shared.Accounts.Detail.FinancialYears.Dto.CreateFinancialYearDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.FinancialYearsController",
+    "Method": "GetAll",
+    "RelativePath": "api/financialyears",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.FinancialYearsController",
+    "Method": "GetById",
+    "RelativePath": "api/financialyears/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.FinancialYearsController",
+    "Method": "Update",
+    "RelativePath": "api/financialyears/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateFinancialYearDto",
+        "Type": "Fophex.Application.Shared.Accounts.Detail.FinancialYears.Dto.UpdateFinancialYearDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.FinancialYearsController",
+    "Method": "Delete",
+    "RelativePath": "api/financialyears/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.BenefitCategorysController",
+    "Method": "Add",
+    "RelativePath": "api/hr/BenefitCategorys",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CreateBenefitCategoryDto",
+        "Type": "Fophex.Application.Shared.HumanResource.Master.BenefitCategorys.Dto.CreateBenefitCategoryDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.BenefitCategorysController",
+    "Method": "GetAll",
+    "RelativePath": "api/hr/BenefitCategorys",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.BenefitCategorysController",
+    "Method": "GetById",
+    "RelativePath": "api/hr/BenefitCategorys/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.BenefitCategorysController",
+    "Method": "Update",
+    "RelativePath": "api/hr/BenefitCategorys/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateBenefitCategoryDto",
+        "Type": "Fophex.Application.Shared.HumanResource.Master.BenefitCategorys.Dto.UpdateBenefitCategoryDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.BenefitCategorysController",
+    "Method": "Delete",
+    "RelativePath": "api/hr/BenefitCategorys/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.CadresController",
+    "Method": "Add",
+    "RelativePath": "api/hr/Cadres",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createCadreDto",
+        "Type": "Fophex.Application.Shared.HumanResource.Master.Cadres.Dto.CreateCadreDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.CadresController",
+    "Method": "GetAll",
+    "RelativePath": "api/hr/Cadres",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.CadresController",
+    "Method": "GetById",
+    "RelativePath": "api/hr/Cadres/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.CadresController",
+    "Method": "Update",
+    "RelativePath": "api/hr/Cadres/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateCadreDto",
+        "Type": "Fophex.Application.Shared.HumanResource.Master.Cadres.Dto.UpdateCadreDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.CadresController",
+    "Method": "Delete",
+    "RelativePath": "api/hr/Cadres/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.CategroysController",
+    "Method": "Add",
+    "RelativePath": "api/hr/Categroys",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createCategoryDto",
+        "Type": "Fophex.Application.Shared.Accounts.Master.Categories.Dto.CreateCategoryDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.CategroysController",
+    "Method": "GetAll",
+    "RelativePath": "api/hr/Categroys",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.CategroysController",
+    "Method": "GetById",
+    "RelativePath": "api/hr/Categroys/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.CategroysController",
+    "Method": "Update",
+    "RelativePath": "api/hr/Categroys/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateCategoryDto",
+        "Type": "Fophex.Application.Shared.Accounts.Master.Categories.Dto.UpdateCategoryDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.CategroysController",
+    "Method": "Delete",
+    "RelativePath": "api/hr/Categroys/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.ClubMembershipsController",
+    "Method": "Add",
+    "RelativePath": "api/hr/ClubMemberships",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createClubMembershipDto",
+        "Type": "Fophex.Application.Shared.HumanResource.Master.ClubMemberships.Dto.CreateClubMembershipDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.ClubMembershipsController",
+    "Method": "GetAll",
+    "RelativePath": "api/hr/ClubMemberships",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.ClubMembershipsController",
+    "Method": "GetById",
+    "RelativePath": "api/hr/ClubMemberships/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.ClubMembershipsController",
+    "Method": "Update",
+    "RelativePath": "api/hr/ClubMemberships/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateClubMembershipDto",
+        "Type": "Fophex.Application.Shared.HumanResource.Master.ClubMemberships.Dto.UpdateClubMembershipDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.ClubMembershipsController",
+    "Method": "Delete",
+    "RelativePath": "api/hr/ClubMemberships/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.DesignationsController",
+    "Method": "Add",
+    "RelativePath": "api/hr/Designations",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createDesignationDto",
+        "Type": "Fophex.Application.Shared.HumanResource.Master.Designations.Dto.CreateDesignationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.DesignationsController",
+    "Method": "GetAll",
+    "RelativePath": "api/hr/Designations",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.DesignationsController",
+    "Method": "GetById",
+    "RelativePath": "api/hr/Designations/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.DesignationsController",
+    "Method": "Update",
+    "RelativePath": "api/hr/Designations/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateDesignationDto",
+        "Type": "Fophex.Application.Shared.HumanResource.Master.Designations.Dto.UpdateDesignationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.DesignationsController",
+    "Method": "Delete",
+    "RelativePath": "api/hr/Designations/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.EmployeeCategorysController",
+    "Method": "Add",
+    "RelativePath": "api/hr/EmployeeCategorys",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createEmployeeCategoryDto",
+        "Type": "Fophex.Application.Shared.HumanResource.Master.EmployeeCategorys.Dto.CreateEmployeeCategoryDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.EmployeeCategorysController",
+    "Method": "GetAll",
+    "RelativePath": "api/hr/EmployeeCategorys",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.EmployeeCategorysController",
+    "Method": "GetById",
+    "RelativePath": "api/hr/EmployeeCategorys/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.EmployeeCategorysController",
+    "Method": "Update",
+    "RelativePath": "api/hr/EmployeeCategorys/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateEmployeeCategoryDto",
+        "Type": "Fophex.Application.Shared.HumanResource.Master.EmployeeCategorys.Dto.UpdateEmployeeCategoryDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.EmployeeCategorysController",
+    "Method": "Delete",
+    "RelativePath": "api/hr/EmployeeCategorys/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.GroupsController",
+    "Method": "Add",
+    "RelativePath": "api/hr/Groups",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createGroupDto",
+        "Type": "Fophex.Application.Shared.HumanResource.Master.Groups.Dto.CreateGroupDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.GroupsController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/hr/Groups",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.GroupsController",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/hr/Groups/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.GroupsController",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/hr/Groups/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateGroupDto",
+        "Type": "Fophex.Application.Shared.HumanResource.Master.Groups.Dto.UpdateGroupDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.GroupsController",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/hr/Groups/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.GroupTypesController",
+    "Method": "Add",
+    "RelativePath": "api/hr/GroupTypes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createGroupTypeDto",
+        "Type": "Fophex.Application.Shared.HumanResource.Master.GroupTypes.Dto.CreateGroupTypeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.GroupTypesController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/hr/GroupTypes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.GroupTypesController",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/hr/GroupTypes/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.GroupTypesController",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/hr/GroupTypes/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateGroupTypeDto",
+        "Type": "Fophex.Application.Shared.HumanResource.Master.GroupTypes.Dto.UpdateGroupTypeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.GroupTypesController",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/hr/GroupTypes/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.HiringTypesController",
+    "Method": "Add",
+    "RelativePath": "api/hr/HiringTypes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createHiringTypeDto",
+        "Type": "Fophex.Application.Shared.HumanResource.Master.HiringTypes.Dto.CreateHiringTypeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.HiringTypesController",
+    "Method": "GetAll",
+    "RelativePath": "api/hr/HiringTypes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.HiringTypesController",
+    "Method": "GetById",
+    "RelativePath": "api/hr/HiringTypes/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.HiringTypesController",
+    "Method": "Update",
+    "RelativePath": "api/hr/HiringTypes/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateHiringTypeDto",
+        "Type": "Fophex.Application.Shared.HumanResource.Master.HiringTypes.Dto.UpdateHiringTypeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.HiringTypesController",
+    "Method": "Delete",
+    "RelativePath": "api/hr/HiringTypes/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.NatureOfIncrementsController",
+    "Method": "Add",
+    "RelativePath": "api/hr/NatureOfIncrements",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createNatureOfIncrementDto",
+        "Type": "Fophex.Application.Shared.HumanResource.Master.NatureOfIncrements.Dto.CreateNatureOfIncrementDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.NatureOfIncrementsController",
+    "Method": "GetAll",
+    "RelativePath": "api/hr/NatureOfIncrements",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.NatureOfIncrementsController",
+    "Method": "GetById",
+    "RelativePath": "api/hr/NatureOfIncrements/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.NatureOfIncrementsController",
+    "Method": "Update",
+    "RelativePath": "api/hr/NatureOfIncrements/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateNatureOfIncrementDto",
+        "Type": "Fophex.Application.Shared.HumanResource.Master.NatureOfIncrements.Dto.UpdateNatureOfIncrementDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.NatureOfIncrementsController",
+    "Method": "Delete",
+    "RelativePath": "api/hr/NatureOfIncrements/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.PayGradesController",
+    "Method": "Add",
+    "RelativePath": "api/hr/PayGrades",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createPayGradeDto",
+        "Type": "Fophex.Application.Shared.HumanResource.Master.PayGrades.Dto.CreatePayGradeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.PayGradesController",
+    "Method": "GetAll",
+    "RelativePath": "api/hr/PayGrades",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.PayGradesController",
+    "Method": "GetById",
+    "RelativePath": "api/hr/PayGrades/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.PayGradesController",
+    "Method": "Update",
+    "RelativePath": "api/hr/PayGrades/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatePayGradeDto",
+        "Type": "Fophex.Application.Shared.HumanResource.Master.PayGrades.Dto.UpdatePayGradeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.PayGradesController",
+    "Method": "Delete",
+    "RelativePath": "api/hr/PayGrades/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.PlanTypesController",
+    "Method": "Add",
+    "RelativePath": "api/hr/PlanTypes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createPlanTypeDto",
+        "Type": "Fophex.Application.Shared.HumanResource.Master.PlanTypes.Dto.CreatePlanTypeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.PlanTypesController",
+    "Method": "GetAll",
+    "RelativePath": "api/hr/PlanTypes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.PlanTypesController",
+    "Method": "GetById",
+    "RelativePath": "api/hr/PlanTypes/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.PlanTypesController",
+    "Method": "Update",
+    "RelativePath": "api/hr/PlanTypes/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatePlanTypeDto",
+        "Type": "Fophex.Application.Shared.HumanResource.Master.PlanTypes.Dto.UpdatePlanTypeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.PlanTypesController",
+    "Method": "Delete",
+    "RelativePath": "api/hr/PlanTypes/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.QulaficationsController",
+    "Method": "Add",
+    "RelativePath": "api/hr/Qulafications",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CreateQualificationDto",
+        "Type": "Fophex.Application.Shared.HumanResource.Master.Qualifications.Dto.CreateQualificationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.QulaficationsController",
+    "Method": "GetAll",
+    "RelativePath": "api/hr/Qulafications",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.QulaficationsController",
+    "Method": "GetById",
+    "RelativePath": "api/hr/Qulafications/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.QulaficationsController",
+    "Method": "Update",
+    "RelativePath": "api/hr/Qulafications/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "UpdateQualificationDto",
+        "Type": "Fophex.Application.Shared.HumanResource.Master.Qualifications.Dto.UpdateQualificationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.QulaficationsController",
+    "Method": "Delete",
+    "RelativePath": "api/hr/Qulafications/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.SectionsController",
+    "Method": "Add",
+    "RelativePath": "api/hr/Sections",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createSectionDto",
+        "Type": "Fophex.Application.Shared.HumanResource.Master.Sections.Dto.CreateSectionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.SectionsController",
+    "Method": "GetAll",
+    "RelativePath": "api/hr/Sections",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.SectionsController",
+    "Method": "GetById",
+    "RelativePath": "api/hr/Sections/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.SectionsController",
+    "Method": "Update",
+    "RelativePath": "api/hr/Sections/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateSectionDto",
+        "Type": "Fophex.Application.Shared.HumanResource.Master.Sections.Dto.UpdateSectionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.SectionsController",
+    "Method": "Delete",
+    "RelativePath": "api/hr/Sections/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.TeamsController",
+    "Method": "Add",
+    "RelativePath": "api/hr/Teams",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createTeamDto",
+        "Type": "Fophex.Application.Shared.HumanResource.Master.Teams.Dto.CreateTeamDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.TeamsController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/hr/Teams",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.TeamsController",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/hr/Teams/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.TeamsController",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/hr/Teams/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateTeamDto",
+        "Type": "Fophex.Application.Shared.HumanResource.Master.Teams.Dto.UpdateTeamDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.TeamsController",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/hr/Teams/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.TeamTypesController",
+    "Method": "Add",
+    "RelativePath": "api/hr/TeamTypes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createTeamTypeDto",
+        "Type": "Fophex.Application.Shared.HumanResource.Master.TeamTypes.Dto.CreateTeamTypeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.TeamTypesController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/hr/TeamTypes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.TeamTypesController",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/hr/TeamTypes/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.TeamTypesController",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/hr/TeamTypes/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateTeamTypeDto",
+        "Type": "Fophex.Application.Shared.HumanResource.Master.TeamTypes.Dto.UpdateTeamTypeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.TeamTypesController",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/hr/TeamTypes/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.TrainersController",
+    "Method": "Add",
+    "RelativePath": "api/hr/Trainers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createTrainerDto",
+        "Type": "Fophex.Application.Shared.HumanResource.Master.Trainers.Dto.CreateTrainerDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.TrainersController",
+    "Method": "GetAll",
+    "RelativePath": "api/hr/Trainers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.TrainersController",
+    "Method": "GetById",
+    "RelativePath": "api/hr/Trainers/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.TrainersController",
+    "Method": "Update",
+    "RelativePath": "api/hr/Trainers/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "UpdateTrainerDto",
+        "Type": "Fophex.Application.Shared.HumanResource.Master.Trainers.Dto.UpdateTrainerDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.TrainersController",
+    "Method": "Delete",
+    "RelativePath": "api/hr/Trainers/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.TrainingFundedBysController",
+    "Method": "Add",
+    "RelativePath": "api/hr/TrainingFundedBys",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createTrainingFundedByDto",
+        "Type": "Fophex.Application.Shared.HumanResource.Master.TrainingFundedBys.Dto.CreateTrainingFundedByDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.TrainingFundedBysController",
+    "Method": "GetAll",
+    "RelativePath": "api/hr/TrainingFundedBys",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.TrainingFundedBysController",
+    "Method": "GetById",
+    "RelativePath": "api/hr/TrainingFundedBys/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.TrainingFundedBysController",
+    "Method": "Update",
+    "RelativePath": "api/hr/TrainingFundedBys/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateTrainingFundedByDto",
+        "Type": "Fophex.Application.Shared.HumanResource.Master.TrainingFundedBys.Dto.UpdateTrainingFundedByDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.TrainingFundedBysController",
+    "Method": "Delete",
+    "RelativePath": "api/hr/TrainingFundedBys/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.TrainingLocations",
+    "Method": "Add",
+    "RelativePath": "api/hr/TrainingLocations",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createTrainingLocationDto",
+        "Type": "Fophex.Application.Shared.HumanResource.Master.TrainingLocations.Dto.CreateTrainingLocationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.TrainingLocations",
+    "Method": "GetAll",
+    "RelativePath": "api/hr/TrainingLocations",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.TrainingLocations",
+    "Method": "GetById",
+    "RelativePath": "api/hr/TrainingLocations/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.TrainingLocations",
+    "Method": "Update",
+    "RelativePath": "api/hr/TrainingLocations/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateTrainingLocationDto",
+        "Type": "Fophex.Application.Shared.HumanResource.Master.TrainingLocations.Dto.UpdateTrainingLocationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.TrainingLocations",
+    "Method": "Delete",
+    "RelativePath": "api/hr/TrainingLocations/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.TrainingTypesController",
+    "Method": "Add",
+    "RelativePath": "api/hr/TrainingTypes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createTrainingTypeDto",
+        "Type": "Fophex.Application.Shared.HumanResource.Master.TrainingTypes.Dto.CreateTrainingTypeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.TrainingTypesController",
+    "Method": "GetAll",
+    "RelativePath": "api/hr/TrainingTypes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.TrainingTypesController",
+    "Method": "GetById",
+    "RelativePath": "api/hr/TrainingTypes/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.TrainingTypesController",
+    "Method": "Update",
+    "RelativePath": "api/hr/TrainingTypes/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateTrainingTypeDto",
+        "Type": "Fophex.Application.Shared.HumanResource.Master.TrainingTypes.Dto.UpdateTrainingTypeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.TrainingTypesController",
+    "Method": "Delete",
+    "RelativePath": "api/hr/TrainingTypes/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.TravelClassesController",
+    "Method": "Add",
+    "RelativePath": "api/hr/TravelClasses",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createTravelClassDto",
+        "Type": "Fophex.Application.Shared.HumanResource.Master.TravelClasses.Dto.CreateTravelClassDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.TravelClassesController",
+    "Method": "GetAll",
+    "RelativePath": "api/hr/TravelClasses",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.TravelClassesController",
+    "Method": "GetById",
+    "RelativePath": "api/hr/TravelClasses/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.TravelClassesController",
+    "Method": "Update",
+    "RelativePath": "api/hr/TravelClasses/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateTravelClassDto",
+        "Type": "Fophex.Application.Shared.HumanResource.Master.TravelClasses.Dto.UpdateTravelClassDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.TravelClassesController",
+    "Method": "Delete",
+    "RelativePath": "api/hr/TravelClasses/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.TravelHotelsController",
+    "Method": "Add",
+    "RelativePath": "api/hr/TravelHotels",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createTravelHotelDto",
+        "Type": "Fophex.Application.Shared.HumanResource.Master.TravelHotels.Dto.CreateTravelHotelDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.TravelHotelsController",
+    "Method": "GetAll",
+    "RelativePath": "api/hr/TravelHotels",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.TravelHotelsController",
+    "Method": "GetById",
+    "RelativePath": "api/hr/TravelHotels/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.TravelHotelsController",
+    "Method": "Update",
+    "RelativePath": "api/hr/TravelHotels/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateTravelHotelDto",
+        "Type": "Fophex.Application.Shared.HumanResource.Master.TravelHotels.Dto.UpdateTravelHotelDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.TravelHotelsController",
+    "Method": "Delete",
+    "RelativePath": "api/hr/TravelHotels/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.VisaCategorysController",
+    "Method": "Add",
+    "RelativePath": "api/hr/VisaCategorys",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createVisaCategoryDto",
+        "Type": "Fophex.Application.Shared.HumanResource.Master.VisaCategorys.Dto.CreateVisaCategoryDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.VisaCategorysController",
+    "Method": "GetAll",
+    "RelativePath": "api/hr/VisaCategorys",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.VisaCategorysController",
+    "Method": "GetById",
+    "RelativePath": "api/hr/VisaCategorys/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.VisaCategorysController",
+    "Method": "Update",
+    "RelativePath": "api/hr/VisaCategorys/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateVisaCategoryDto",
+        "Type": "Fophex.Application.Shared.HumanResource.Master.VisaCategorys.Dto.UpdateVisaCategoryDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.HumanResources.VisaCategorysController",
+    "Method": "Delete",
+    "RelativePath": "api/hr/VisaCategorys/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.InstrumentTypesController",
+    "Method": "Add",
+    "RelativePath": "api/instrumenttypes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createInstrumentTypeDto",
+        "Type": "Fophex.Application.Shared.Accounts.Master.InstrumentTypes.Dto.CreateInstrumentTypeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.InstrumentTypesController",
+    "Method": "GetAll",
+    "RelativePath": "api/instrumenttypes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.InstrumentTypesController",
+    "Method": "GetById",
+    "RelativePath": "api/instrumenttypes/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.InstrumentTypesController",
+    "Method": "Update",
+    "RelativePath": "api/instrumenttypes/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateInstrumentTypeDto",
+        "Type": "Fophex.Application.Shared.Accounts.Master.InstrumentTypes.Dto.UpdateInstrumentTypeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.InstrumentTypesController",
+    "Method": "Delete",
+    "RelativePath": "api/instrumenttypes/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.SubCategoriesController",
+    "Method": "Add",
+    "RelativePath": "api/subcategories",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createSubCategoryDto",
+        "Type": "Fophex.Application.Shared.Accounts.Master.SubCategories.Dto.CreateSubCategoryDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.SubCategoriesController",
+    "Method": "GetAll",
+    "RelativePath": "api/subcategories",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.SubCategoriesController",
+    "Method": "GetById",
+    "RelativePath": "api/subcategories/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.SubCategoriesController",
+    "Method": "Update",
+    "RelativePath": "api/subcategories/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateSubCategoryDto",
+        "Type": "Fophex.Application.Shared.Accounts.Master.SubCategories.Dto.UpdateSubCategoryDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.SubCategoriesController",
+    "Method": "Delete",
+    "RelativePath": "api/subcategories/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.SubClassificationsController",
+    "Method": "Add",
+    "RelativePath": "api/subclassifications",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createSubClassificationDto",
+        "Type": "Fophex.Application.Shared.Accounts.Master.SubClassifications.Dto.CreateSubClassificationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.SubClassificationsController",
+    "Method": "GetAll",
+    "RelativePath": "api/subclassifications",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.SubClassificationsController",
+    "Method": "GetById",
+    "RelativePath": "api/subclassifications/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.SubClassificationsController",
+    "Method": "Update",
+    "RelativePath": "api/subclassifications/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateSubClassificationDto",
+        "Type": "Fophex.Application.Shared.Accounts.Master.SubClassifications.Dto.UpdateSubClassificationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.SubClassificationsController",
+    "Method": "Delete",
+    "RelativePath": "api/subclassifications/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.TenantsController",
+    "Method": "Post",
+    "RelativePath": "api/Tenants",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Fophex.Application.Shared.Tenant.Dto.CreateTenantDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.TestsController",
+    "Method": "Add",
+    "RelativePath": "api/Tests",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createTestDto",
+        "Type": "Fophex.Application.Shared.Test.Dto.CreateTestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.TestsController",
+    "Method": "GetAll",
+    "RelativePath": "api/Tests",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.TestsController",
+    "Method": "GetById",
+    "RelativePath": "api/Tests/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.TestsController",
+    "Method": "Update",
+    "RelativePath": "api/Tests/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateTestDto",
+        "Type": "Fophex.Application.Shared.Test.Dto.UpdateTestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.TestsController",
+    "Method": "Delete",
+    "RelativePath": "api/Tests/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.VoucherSettingsController",
+    "Method": "Add",
+    "RelativePath": "api/vouchersettings",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createVoucherSettingDto",
+        "Type": "Fophex.Application.Shared.Accounts.Detail.VoucherSettings.Dto.CreateVoucherSettingDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.VoucherSettingsController",
+    "Method": "GetAll",
+    "RelativePath": "api/vouchersettings",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.VoucherSettingsController",
+    "Method": "GetById",
+    "RelativePath": "api/vouchersettings/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Fophex.Application.Shared.Common.Dto.ResponseOutputDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.VoucherSettingsController",
+    "Method": "Update",
+    "RelativePath": "api/vouchersettings/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateVoucherSettingDto",
+        "Type": "Fophex.Application.Shared.Accounts.Detail.VoucherSettings.Dto.UpdateVoucherSettingDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fophex.API.Controllers.VoucherSettingsController",
+    "Method": "Delete",
+    "RelativePath": "api/vouchersettings/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

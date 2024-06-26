@@ -1,0 +1,16 @@
+D:\Fophexs\Fophex\Fophex\Fophex.Core\bin\Debug\net8.0\Fophex.Core.deps.json
+D:\Fophexs\Fophex\Fophex\Fophex.Core\bin\Debug\net8.0\Fophex.Core.dll
+D:\Fophexs\Fophex\Fophex\Fophex.Core\bin\Debug\net8.0\Fophex.Core.pdb
+D:\Fophexs\Fophex\Fophex\Fophex.Core\bin\Debug\net8.0\Fophex.Application.Shared.dll
+D:\Fophexs\Fophex\Fophex\Fophex.Core\bin\Debug\net8.0\Fophex.Application.Shared.pdb
+D:\Fophexs\Fophex\Fophex\Fophex.Core\obj\Debug\net8.0\Fophex.Core.csproj.AssemblyReference.cache
+D:\Fophexs\Fophex\Fophex\Fophex.Core\obj\Debug\net8.0\Fophex.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Fophexs\Fophex\Fophex\Fophex.Core\obj\Debug\net8.0\Fophex.Core.AssemblyInfoInputs.cache
+D:\Fophexs\Fophex\Fophex\Fophex.Core\obj\Debug\net8.0\Fophex.Core.AssemblyInfo.cs
+D:\Fophexs\Fophex\Fophex\Fophex.Core\obj\Debug\net8.0\Fophex.Core.csproj.CoreCompileInputs.cache
+D:\Fophexs\Fophex\Fophex\Fophex.Core\obj\Debug\net8.0\Fophex.Core.sourcelink.json
+D:\Fophexs\Fophex\Fophex\Fophex.Core\obj\Debug\net8.0\Fophex.C.9C5102B1.Up2Date
+D:\Fophexs\Fophex\Fophex\Fophex.Core\obj\Debug\net8.0\Fophex.Core.dll
+D:\Fophexs\Fophex\Fophex\Fophex.Core\obj\Debug\net8.0\refint\Fophex.Core.dll
+D:\Fophexs\Fophex\Fophex\Fophex.Core\obj\Debug\net8.0\Fophex.Core.pdb
+D:\Fophexs\Fophex\Fophex\Fophex.Core\obj\Debug\net8.0\ref\Fophex.Core.dll

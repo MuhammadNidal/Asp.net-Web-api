@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Fophex.Application.Shared/1.0.0": {
+        "runtime": {
+          "Fophex.Application.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Fophex.Application.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

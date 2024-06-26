@@ -1,0 +1,1 @@
+﻿# All entities having one field
